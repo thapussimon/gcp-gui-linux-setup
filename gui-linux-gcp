@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt-get install -y xrdp
+sudo apt-get install -y xfce4
+sudo service xrdp restart
+
+//Switch to root user in GCP
+sudo -s
+//change password of root user using passwd
+
+enable port 3389 in Firewall Rules 
+
+& rdp using username=root & password=<Password You Setup>
